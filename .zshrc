@@ -7,7 +7,6 @@ export ZSH=/home/tim/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-# ZSH_THEME="jtriley"
 ZSH_THEME=""
 
 # Set list of themes to load
@@ -90,6 +89,8 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
+ 
+# Pure installation github.com/sindresorhus/pure
 autoload -U promptinit; promptinit
 prompt pure
 

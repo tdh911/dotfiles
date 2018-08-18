@@ -19,7 +19,7 @@ imap jk <Esc>
 let g:airline_theme='minimalist'
 
 " NerdTree
-map <C-n> :NERDTreeToggle<CR>
+map <C-f> :NERDTreeToggle<CR>
 
 " Vundle data
 set nocompatible
