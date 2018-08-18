@@ -109,7 +109,7 @@ prompt_pure_preprompt_render() {
 	local -a preprompt_parts
 
 	# Set the path and time.
-	preprompt_parts+=('%F{blue}%* %~%f')
+	preprompt_parts+=('%F{blue}%* %~%f') # Edit this line to add the time
 
 	# Add git branch and dirty status info.
 	typeset -gA prompt_pure_vcs_info
